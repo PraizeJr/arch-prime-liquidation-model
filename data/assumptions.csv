@@ -1,0 +1,16 @@
+input,value,category,source,as_of
+aBTC asset weight (initial),0.65,documented,https://www.arch.network/docs/prime/02-how-it-works (worked example),2026-10-24
+aBTC asset weight (maintenance),0.75,documented,https://www.arch.network/docs/prime/02-how-it-works (worked example),2026-10-24
+archUSD liability weight,1.0,documented,https://www.arch.network/docs/prime/02-how-it-works (worked example),2026-10-24
+Maximum leverage,5.0,documented,https://www.arch.network/docs/prime/02-how-it-works,2026-10-24
+Closeout order (strategy first rank 1; Bitcoin last rank 99),n/a,documented,https://www.arch.network/docs/prime/02-how-it-works,2026-10-24
+Loss order (insurance vault then depositors),n/a,documented,https://www.arch.network/docs/prime/02-how-it-works,2026-10-24
+No reserve fund behind the archUSD reserve,n/a,documented,https://www.arch.network/docs/prime/06-risk,2026-10-24
+Strategy receipt asset weight (initial),0.90,assumed,Author placeholder; not published by Arch,2026-10-24
+Strategy receipt asset weight (maintenance),0.95,assumed,Author placeholder; not published by Arch,2026-10-24
+Strategy sale discount to fair value (scenarios),0.01-0.08,assumed,Author placeholder; not published by Arch,2026-10-24
+Bitcoin sweep discount (scenarios),0.01-0.05,assumed,Author placeholder; not published by Arch,2026-10-24
+Price gap between breach and execution (scenario 4),BTC -5% and strategy -3%,assumed,Author placeholder,2026-10-24
+Insurance vault size,not modelled,unverified,Not published,2026-10-24
+Strategy value-mark provider and staleness limit,not modelled,unverified,Not published,2026-10-24
+Real closeout time and recovery rate,not modelled,unverified,Not published; no live data,2026-10-24

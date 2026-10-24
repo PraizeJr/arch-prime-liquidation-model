@@ -1,0 +1,7 @@
+Scenario,Lev,BTC move,Strategy move,Liquidatable,Equity at NAV ($),Lender loss ($),Loss % of debt,User residual ($),BTC sold
+A. Calm market,5.0,+0%,+0%,False,100000,0,0.0%,100000,n/a
+"B. BTC crash, strategy fine",5.0,-50%,+0%,False,50000,0,0.0%,50000,n/a
+"C. Strategy -12%, BTC flat",5.0,+0%,-12%,True,40000,0,0.0%,25306,75%
+"D. Strategy -20%, BTC flat",5.0,+0%,-20%,True,0,14000,2.8%,0,100%
+"E. Cascade (BTC -50%, strat -12%, wide spreads)",5.0,-50%,-12%,True,-10000,62219,12.4%,0,100%
+F. Same as E at 3.0x,3.0,-50%,-12%,True,14000,19281,6.4%,0,100%
