@@ -2,7 +2,7 @@
 
 A small, open model that asks one question: **when an Arch Prime account is liquidated, where would money actually be lost, and who would lose it?**
 
-It accompanies the article *Borrowing Against Bitcoin? The Risk Isn't Where You're Looking* ([link to article]). You do not need this repository to follow the article. It is here so you can check my work.
+It accompanies the article *Borrowing Against Bitcoin? The Risk Isn't Where You're Looking* ([WIP). You do not need this repository to follow the article. It is here so you can check my work.
 
 ## What this is, and isn't
 
